@@ -1,0 +1,138 @@
+{
+	"siteVersion": "1.169.5",
+	"_meta": {
+		"sources": [
+			{
+				"json": "Llama",
+				"abbreviation": "LL",
+				"full": "Llama",
+				"url": "",
+				"authors": [
+					"Llama"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1668868101,
+		"dateLastModified": 1668868101
+	},
+	"monster": [
+		{
+			"name": "Count Bittlebottom",
+			"size": [
+				"T"
+			],
+			"type": "beast",
+			"source": "Llama",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				11
+			],
+			"hp": {
+				"formula": "1d4 + 1",
+				"average": 3
+			},
+			"speed": {
+				"walk": 30,
+				"fly": {
+					"number": 30,
+					"condition": "see bad flier below"
+				},
+				"canHover": false
+			},
+			"str": 6,
+			"dex": 12,
+			"con": 12,
+			"int": 6,
+			"wis": 12,
+			"cha": 5,
+			"passive": 13,
+			"cr": "0",
+			"languages": [
+				"Understands Common but can't speak it"
+			],
+			"languageTags": [
+				"C",
+				"CS"
+			],
+			"skill": {
+				"perception": "+3"
+			},
+			"immune": [
+				{
+					"immune": [
+						{
+							"special": "All damage"
+						}
+					],
+					"note": "(can be dismembered however)"
+				}
+			],
+			"conditionImmune": [
+				"petrified",
+				"poisoned"
+			],
+			"trait": [
+				{
+					"name": "Curse of Immortality",
+					"entries": [
+						"Count Bittlebottom is cursed with immortality, making them immune to all damage and instant death effects, but still capable of being wounded and dismembered. Being wounded and dismembered does not subtract from the Count's health. To cure the Count of this curse requires magics as powerful as a cleric's {@classFeature Divine Intervention|Cleric|phb|10}"
+					]
+				},
+				{
+					"name": "Bad Flier",
+					"entries": [
+						"Count Bittlebottom falls at the end of a turn if it's airborne and the only thing holding it aloft is its flying speed."
+					]
+				},
+				{
+					"name": "Noble Hen",
+					"entries": [
+						"The Count has advantage on all charisma checks against those of a lower status then their title of Count (technically Countess). Furthermore, no one questions why a chicken holds the title of Count."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Beak",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"damageTags": [
+				"P"
+			],
+			"fluff": {
+				"entries": [
+					"Count Bittlebottom is a chicken who has lived for thousands of years, doomed to walk this mortal coil in agony as they cannot die. Cursed by some unforgiving god of chaos, they wander the land looking for both revenge towards the one who granted them this curse, and also those who have wronged them.",
+					"If you bribe them with food and the promise to not try to eat them, you can befriend them, and they will become a Sidekick for the party or can act as a familiar (DM's Choice)",
+					"The Count owns a small fief that is very difficult to find, and does not belong to any kingdom. And their noble title is recognized as both legitimate and normal.",
+					"Their full name is Count Eclodius Bittlebottom."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Ffree-range-chickens-26776241.jpg&f=1&nofb=1&ipt=1e4255a1d496060865c90d59da34e1403a2e9741eca83ea24107826d7aa9078b&ipo=images"
+						}
+					}
+				]
+			},
+			"isNpc": true,
+			"shortName": "The Count",
+			"page": 1,
+			"environment": [
+				"grassland",
+				"urban"
+			],
+			"tokenUrl": "https://cdn.discordapp.com/attachments/676952419556655167/1043531598030708746/Count_Bittlebottom.png"
+		}
+	]
+}
